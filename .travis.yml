@@ -5,9 +5,9 @@ env:
   global:
     - TEST_DIR="$PWD/
 #    - TEST_SCRIPT="test.sh"
-    - BUILD_DIR="$PWD/3.14.4/"
+    - BUILD_DIR="$PWD/3.6.2/"
     - REPO="quay.io/ibmz/zookeeper"
-    - TAG="$REPO:3.14.4"
+    - TAG="$REPO:3.6.2"
 before_script: 
 #  - cd $TEST_DIR && chmod +x $TEST_SCRIPT
   - docker login quay.io -u $ROBOT -p $ROBOT_TOKEN

@@ -3,7 +3,7 @@ services:
   - docker
 env:
   global:
-    - TEST_DIR="$PWD/
+    - TEST_DIR="$PWD/"
 #    - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/3.6.2/"
     - REPO="quay.io/ibmz/zookeeper"
@@ -15,4 +15,4 @@ script:
   - docker build $BUILD_DIR --tag $TAG
 #  - cd $TEST_DIR && bash $TEST_SCRIPT 
 after_script:
-#  - docker push $REPO
+  - docker push $REPO

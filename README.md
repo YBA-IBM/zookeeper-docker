@@ -1,7 +1,9 @@
-# Tags
--	[`3.6.2`](https://github.com/YBA-IBM/zookeeper-docker/blob/master/3.6.2/Dockerfile)
+### This image is built to run on s390x architecture.
+-    [build source](https://github.com/YBA-IBM/zookeeper-docker) 
+-    [original source code](https://github.com/31z4/zookeeper-docker)
 
-# What is Apache Zookeeper?
+# Tags
+-	[`3.6.2`]
 
 Apache ZooKeeper is a software project of the Apache Software Foundation, providing an open source distributed configuration service, synchronization service, and naming registry for large distributed systems. ZooKeeper was a sub-project of Hadoop but is now a top-level project in its own right.
 
